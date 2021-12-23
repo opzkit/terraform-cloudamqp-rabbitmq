@@ -2,7 +2,6 @@ resource "cloudamqp_instance" "default" {
   name        = var.name
   plan        = var.plan
   region      = "amazon-web-services::${var.region}"
-  nodes       = var.nodes
   rmq_version = var.rmq_version
 }
 

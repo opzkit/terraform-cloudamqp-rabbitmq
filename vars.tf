@@ -13,12 +13,6 @@ variable "region" {
   description = "Region where instance will be located"
 }
 
-variable "nodes" {
-  type        = number
-  description = "Number of instances in cluster"
-  default     = 0
-}
-
 variable "rmq_version" {
   type        = string
   description = "Version of RabbitMQ to use"
