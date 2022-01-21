@@ -8,6 +8,12 @@ variable "plan" {
   description = "Plan for instance"
 }
 
+variable "nodes" {
+  type        = number
+  default     = null
+  description = "Number of instances for plan. *Deprecated* see https://registry.terraform.io/providers/cloudamqp/cloudamqp/latest/docs/resources/instance#nodes"
+}
+
 variable "region" {
   type        = string
   description = "Region where instance will be located"
