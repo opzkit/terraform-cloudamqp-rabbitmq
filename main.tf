@@ -3,6 +3,7 @@ resource "cloudamqp_instance" "default" {
   plan        = var.plan
   region      = "amazon-web-services::${var.region}"
   rmq_version = var.rmq_version
+  nodes       = var.nodes
 }
 
 resource "cloudamqp_notification" "email" {
@@ -20,7 +21,9 @@ resource "cloudamqp_notification" "slack" {
 }
 
 locals {
-  recipients = flatten([[for i, v in cloudamqp_notification.email : v.id], [for i, v in cloudamqp_notification.slack : v.id]])
+  recipients = flatten([
+    [for i, v in cloudamqp_notification.email : v.id], [for i, v in cloudamqp_notification.slack : v.id]
+  ])
 }
 
 resource "cloudamqp_alarm" "consumer_alarm" {
