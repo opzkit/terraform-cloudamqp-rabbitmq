@@ -71,6 +71,10 @@ resource "aws_secretsmanager_secret_version" "rabbit_value" {
 
 locals {
   secret_value = {
-    AMQP_URL = cloudamqp_instance.default.url
+    AMQP_URL      = cloudamqp_instance.default.url
+    AMQP_HOST     = cloudamqp_instance.default.host
+    AMQP_VHOST    = cloudamqp_instance.default.vhost
+    AMQP_USER     = data.cloudamqp_credentials.default.username
+    AMQP_PASSWORD = data.cloudamqp_credentials.default.password
   }
 }
