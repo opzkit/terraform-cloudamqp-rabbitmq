@@ -3,6 +3,12 @@ variable "name" {
   description = "Name of instance"
 }
 
+variable "secret_name" {
+  type        = string
+  default     = null
+  description = "Name of secret, defaults to mq/rabbit/<instance name>"
+}
+
 variable "plan" {
   type        = string
   description = "Plan for instance"

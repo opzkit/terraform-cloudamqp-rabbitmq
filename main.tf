@@ -60,7 +60,7 @@ data "cloudamqp_credentials" "default" {
 }
 
 resource "aws_secretsmanager_secret" "rabbit" {
-  name = "mq/rabbit/${var.name}"
+  name = "mq/rabbit/${var.secret_name != null && var.secret_name != "" ? var.secret_name : var.name}"
 }
 
 resource "aws_secretsmanager_secret_version" "rabbit_value" {
