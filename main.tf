@@ -20,9 +20,18 @@ resource "cloudamqp_notification" "slack" {
   value       = each.value
 }
 
+resource "cloudamqp_notification" "teams" {
+  for_each    = toset(var.teams_webhooks)
+  instance_id = cloudamqp_instance.default.id
+  type        = "teams"
+  value       = each.value
+}
+
 locals {
   recipients = flatten([
-    [for i, v in cloudamqp_notification.email : v.id], [for i, v in cloudamqp_notification.slack : v.id]
+    [for i, v in cloudamqp_notification.email : v.id],
+    [for i, v in cloudamqp_notification.slack : v.id],
+    [for i, v in cloudamqp_notification.teams : v.id]
   ])
 }
 
