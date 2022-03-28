@@ -42,3 +42,9 @@ variable "slack_webhooks" {
   description = "List of Slack webhooks which will be called for alerts"
   default     = []
 }
+
+variable "teams_webhooks" {
+  type        = list(string)
+  description = "List of Teams webhooks which will be called for alerts"
+  default     = []
+}
