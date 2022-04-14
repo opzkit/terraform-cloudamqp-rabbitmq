@@ -43,6 +43,7 @@ resource "cloudamqp_alarm" "consumer_alarm" {
   time_threshold  = 60
   value_threshold = 0
   recipients      = local.recipients
+  queue_regex     = var.consumer_alarm_queue_regex
 }
 
 resource "cloudamqp_alarm" "queue_alarm" {
@@ -54,6 +55,7 @@ resource "cloudamqp_alarm" "queue_alarm" {
   message_type    = "total"
   value_threshold = 10
   recipients      = local.recipients
+  queue_regex     = var.queue_alarm_queue_regex
 }
 
 resource "cloudamqp_alarm" "notice_alarm" {
