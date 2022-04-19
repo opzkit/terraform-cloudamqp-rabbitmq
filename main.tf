@@ -1,9 +1,10 @@
 resource "cloudamqp_instance" "default" {
-  name        = var.name
-  plan        = var.plan
-  region      = "amazon-web-services::${var.region}"
-  rmq_version = var.rmq_version
-  nodes       = var.nodes
+  name              = var.name
+  plan              = var.plan
+  region            = "amazon-web-services::${var.region}"
+  rmq_version       = var.rmq_version
+  nodes             = var.nodes
+  no_default_alarms = length(local.recipients) > 0
 }
 
 resource "cloudamqp_notification" "email" {
