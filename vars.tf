@@ -48,3 +48,15 @@ variable "teams_webhooks" {
   description = "List of Teams webhooks which will be called for alerts"
   default     = []
 }
+
+variable "consumer_alarm_queue_regex" {
+  type        = string
+  description = "Queue regex to determine which queues should be monitored"
+  default     = ".*"
+}
+
+variable "queue_alarm_queue_regex" {
+  type        = string
+  description = "Queue regex to determine which queues should be monitored"
+  default     = ".*"
+}
