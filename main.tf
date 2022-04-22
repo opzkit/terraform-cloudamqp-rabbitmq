@@ -4,7 +4,7 @@ resource "cloudamqp_instance" "default" {
   region            = "amazon-web-services::${var.region}"
   rmq_version       = var.rmq_version
   nodes             = var.nodes
-  no_default_alarms = length(local.recipients) > 0
+  no_default_alarms = local.no_default_alarms
 }
 
 resource "cloudamqp_notification" "email" {
@@ -29,6 +29,7 @@ resource "cloudamqp_notification" "teams" {
 }
 
 locals {
+  no_default_alarms = length(concat(var.email_recipients, var.slack_webhooks, var.teams_webhooks)) > 0
   recipients = flatten([
     [for i, v in cloudamqp_notification.email : v.id],
     [for i, v in cloudamqp_notification.slack : v.id],
