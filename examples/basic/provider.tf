@@ -7,6 +7,7 @@ provider "aws" {
   access_key                  = "mock_access_key"
   secret_key                  = "mock_secret_key"
 }
+
 provider "cloudamqp" {
   apikey = "dummy"
 }
@@ -15,12 +16,12 @@ terraform {
   required_providers {
     cloudamqp = {
       source  = "cloudamqp/cloudamqp"
-      version = "~> 1.15"
+      version = "~> 1.19.3"
     }
 
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 3.0"
+      version = "~> 4.0"
     }
   }
 }
