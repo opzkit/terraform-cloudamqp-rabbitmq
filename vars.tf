@@ -60,3 +60,21 @@ variable "queue_alarm_queue_regex" {
   description = "Queue regex to determine which queues should be monitored"
   default     = ".*"
 }
+
+variable "cpu_alarm_threshold" {
+  type        = number
+  description = "Threshold for CPU alarm. Only for dedicated instances. If no value is provided, no alarm will be setup"
+  default     = null
+}
+
+variable "mem_alarm_threshold" {
+  type        = number
+  description = "Threshold for memory alarm. Only for dedicated instances. If no value is provided, no alarm will be setup"
+  default     = null
+}
+
+variable "disk_alarm_threshold" {
+  type        = number
+  description = "Threshold for disk alarm. Only for dedicated instances. If no value is provided, no alarm will be setup"
+  default     = null
+}
