@@ -4,7 +4,7 @@ resource "cloudamqp_instance" "default" {
   region            = "amazon-web-services::${var.region}"
   rmq_version       = var.rmq_version
   nodes             = var.nodes
-  no_default_alarms = local.no_default_alarms
+  no_default_alarms = true
 }
 
 resource "cloudamqp_notification" "email" {
@@ -58,14 +58,6 @@ resource "cloudamqp_alarm" "queue_alarm" {
   value_threshold = 10
   recipients      = local.recipients
   queue_regex     = var.queue_alarm_queue_regex
-}
-
-resource "cloudamqp_alarm" "notice_alarm" {
-  count       = length(local.recipients) > 0 ? 1 : 0
-  instance_id = cloudamqp_instance.default.id
-  type        = "notice"
-  enabled     = true
-  recipients  = local.recipients
 }
 
 data "cloudamqp_credentials" "default" {
