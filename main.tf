@@ -60,6 +60,36 @@ resource "cloudamqp_alarm" "queue_alarm" {
   queue_regex     = var.queue_alarm_queue_regex
 }
 
+resource "cloudamqp_alarm" "cpu_alarm" {
+  count           = var.cpu_alarm_threshold == null ? 0 : 1
+  instance_id     = cloudamqp_instance.default.id
+  type            = "cpu"
+  enabled         = true
+  time_threshold  = 600
+  value_threshold = var.cpu_alarm_threshold
+  recipients      = local.recipients
+}
+
+resource "cloudamqp_alarm" "mem_alarm" {
+  count           = var.mem_alarm_threshold == null ? 0 : 1
+  instance_id     = cloudamqp_instance.default.id
+  type            = "memory"
+  enabled         = true
+  time_threshold  = 600
+  value_threshold = var.mem_alarm_threshold
+  recipients      = local.recipients
+}
+
+resource "cloudamqp_alarm" "disk_alarm" {
+  count           = var.disk_alarm_threshold == null ? 0 : 1
+  instance_id     = cloudamqp_instance.default.id
+  type            = "disk"
+  enabled         = true
+  time_threshold  = 600
+  value_threshold = var.disk_alarm_threshold
+  recipients      = local.recipients
+}
+
 data "cloudamqp_credentials" "default" {
   instance_id = cloudamqp_instance.default.id
 }
