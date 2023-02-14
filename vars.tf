@@ -78,3 +78,9 @@ variable "disk_alarm_threshold" {
   description = "Threshold for disk alarm. Only for dedicated instances. If no value is provided, no alarm will be setup"
   default     = null
 }
+
+variable "consumer_alarm_time_threshold" {
+  type        = number
+  description = "Time in seconds for consumer alarm, default to 60 secs."
+  default     = 60
+}
