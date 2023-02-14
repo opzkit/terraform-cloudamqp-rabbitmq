@@ -42,7 +42,7 @@ resource "cloudamqp_alarm" "consumer_alarm" {
   instance_id     = cloudamqp_instance.default.id
   type            = "consumer"
   enabled         = true
-  time_threshold  = 60
+  time_threshold  = var.consumer_alarm_time_threshold
   value_threshold = 0
   recipients      = local.recipients
   queue_regex     = var.consumer_alarm_queue_regex
