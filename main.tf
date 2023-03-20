@@ -90,6 +90,11 @@ resource "cloudamqp_alarm" "disk_alarm" {
   recipients      = local.recipients
 }
 
+resource "cloudamqp_rabbitmq_configuration" "rabbitmq_config" {
+  instance_id      = cloudamqp_instance.default.id
+  consumer_timeout = var.consumer_timeout
+}
+
 data "cloudamqp_credentials" "default" {
   instance_id = cloudamqp_instance.default.id
 }

@@ -84,3 +84,9 @@ variable "consumer_alarm_time_threshold" {
   description = "Time in seconds for consumer alarm, default to 60 secs."
   default     = 60
 }
+
+variable "consumer_timeout" {
+  type        = number
+  description = "Consumer timeout in msecs for non-acked messages, defaults to 30 minutes"
+  default     = 1800000
+}
