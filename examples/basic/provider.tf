@@ -8,15 +8,19 @@ provider "aws" {
   secret_key                  = "mock_secret_key"
 }
 
+variable "api_key" {
+  type = string
+}
+
 provider "cloudamqp" {
-  apikey = "dummy"
+  apikey = var.api_key
 }
 
 terraform {
   required_providers {
     cloudamqp = {
       source  = "cloudamqp/cloudamqp"
-      version = "~> 1.25.0"
+      version = "~> 1.26.0"
     }
 
     aws = {

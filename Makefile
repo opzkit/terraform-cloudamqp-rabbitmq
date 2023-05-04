@@ -11,5 +11,5 @@ example/%:
 	@echo "Processing example: $(notdir $*)"
 	@terraform -chdir=$* init -upgrade
 	@terraform -chdir=$* validate
-	@terraform -chdir=$* plan
+	@terraform -chdir=$* plan -var api_key=$(API_KEY)
 
