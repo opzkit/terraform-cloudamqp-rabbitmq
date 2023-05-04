@@ -8,8 +8,12 @@ provider "aws" {
   secret_key                  = "mock_secret_key"
 }
 
+variable "api_key" {
+  type = string
+}
+
 provider "cloudamqp" {
-  apikey = "dummy"
+  apikey = var.api_key
 }
 
 terraform {
