@@ -2,7 +2,7 @@ terraform {
   required_providers {
     cloudamqp = {
       source  = "cloudamqp/cloudamqp"
-      version = "1.29.4"
+      version = "1.29.5"
     }
   }
 }
