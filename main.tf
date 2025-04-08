@@ -29,7 +29,6 @@ resource "cloudamqp_notification" "teams" {
 }
 
 locals {
-  no_default_alarms = length(concat(var.email_recipients, var.slack_webhooks, var.teams_webhooks)) > 0
   recipients = flatten([
     [for i, v in cloudamqp_notification.email : v.id],
     [for i, v in cloudamqp_notification.slack : v.id],
