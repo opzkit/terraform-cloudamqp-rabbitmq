@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.0...v0.1.1) (2025-05-17)
+
+
+### Miscellaneous Chores
+
+* remove unnecessary work flow for release please ([#72](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/72)) ([e9b1ee9](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/e9b1ee9c945a4c41614154b2878850a16fb90b35))
+
 ## [0.1.0](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.0.18...v0.1.0) (2025-05-02)
 
 
