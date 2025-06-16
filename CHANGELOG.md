@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.1.1](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.0...v0.1.1) (2025-06-16)
+
+
+### Miscellaneous Chores
+
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.1 ([#75](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/75)) ([dc81ca2](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/dc81ca236e6fc33b2826817a86a8832269a4bf52))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.3 ([#76](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/76)) ([8c26c37](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/8c26c374ca8f63096cf1cef52af4669a587eee87))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.4 ([#77](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/77)) ([43a1281](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/43a12818eccbd546111b24d0b967be687541ec00))
+* **deps:** update terraform cloudamqp to v1.35.1 ([#78](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/78)) ([25a83cf](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/25a83cf5c762d146fa4e42b7ef5039e6d3329a4f))
+* remove unnecessary work flow for release please ([#72](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/72)) ([e9b1ee9](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/e9b1ee9c945a4c41614154b2878850a16fb90b35))
+
 ## [0.1.0](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.0.18...v0.1.0) (2025-05-02)
 
 
