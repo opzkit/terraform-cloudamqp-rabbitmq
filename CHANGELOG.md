@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.1...v0.1.2) (2025-06-19)
+
+
+### Miscellaneous Chores
+
+* **deps:** update terraform aws to v6 ([#79](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/79)) ([006e1cd](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/006e1cd75dfcdb24eb905238b9d0698766c737a9))
+
 ## [0.1.1](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.0...v0.1.1) (2025-06-16)
 
 
