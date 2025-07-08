@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.2...v0.1.3) (2025-07-08)
+
+
+### Miscellaneous Chores
+
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.5 ([#81](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/81)) ([c776135](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/c776135016e068bac84556bfe55f9b9f16c6329e))
+
 ## [0.1.2](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.1...v0.1.2) (2025-06-19)
 
 
