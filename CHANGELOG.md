@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.1.3](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.2...v0.1.3) (2025-09-01)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v4.3.0 ([#86](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/86)) ([6d685e5](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/6d685e58be204cd0f397fe93ec4b567cbe8fb64d))
+* **deps:** update actions/checkout action to v5 ([#87](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/87)) ([2cddd12](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/2cddd125f54a7180dd6ee2da72b7424e90d89a56))
+* **deps:** update actions/checkout digest to 08eba0b ([#85](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/85)) ([2032579](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/2032579e33fce9c82e56a2d619acac828091c65a))
+* **deps:** update googleapis/release-please-action digest to c2a5a2b ([#90](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/90)) ([4d10580](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/4d1058095af1092d7a596f70e38353039d81558e))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.100.0 ([#83](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/83)) ([568178d](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/568178de44b408b20c88d40e3998d06001f46cbd))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.5 ([#81](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/81)) ([c776135](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/c776135016e068bac84556bfe55f9b9f16c6329e))
+* **deps:** update pre-commit hook pre-commit/pre-commit-hooks to v6 ([#84](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/84)) ([a1879f6](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/a1879f61e135b9c671cca6c2dd2580610b2394bf))
+* **deps:** update terraform cloudamqp to v1.36.0 ([#91](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/91)) ([63a99d4](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/63a99d439786b503ccd434fd1963e5617503b42a))
+* **deps:** update terraform-linters/setup-tflint action to v5 ([#88](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/88)) ([d02e158](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/d02e158304fa4698543059c1aa9432bb81157262))
+
+
+### Continuous Integration
+
+* add GitHub Actions workflow for release automation ([#89](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/89)) ([459e58c](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/459e58c1875a2190294bb9afcaae28df90a14054))
+
 ## [0.1.2](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.1...v0.1.2) (2025-06-19)
 
 
