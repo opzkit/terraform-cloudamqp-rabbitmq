@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.3...v0.1.4) (2025-09-04)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/setup-python action to v6 ([#92](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/92)) ([2fb886c](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/2fb886ca490ab9e6cbdc5e34bd341d24ef06eb41))
+
 ## [0.1.3](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.2...v0.1.3) (2025-09-01)
 
 
