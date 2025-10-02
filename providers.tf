@@ -2,7 +2,7 @@ terraform {
   required_providers {
     cloudamqp = {
       source  = "cloudamqp/cloudamqp"
-      version = "1.36.0"
+      version = "1.37.0"
     }
     aws = {
       source  = "hashicorp/aws"
