@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.6](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.5...v0.1.6) (2025-11-07)
+
+
+### Miscellaneous Chores
+
+* **deps:** update terraform cloudamqp to v1.38.1 ([#138](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/138)) ([2c46af5](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/2c46af5a4bd1173a4a54e5672b3db459f9363b9c))
+* **deps:** update terraform-linters/setup-tflint action to v6.2.1 ([#136](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/136)) ([af151e2](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/af151e22e9a2a670014a2bbd700bfbeef298de14))
+
 ## [0.1.5](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.4...v0.1.5) (2025-10-28)
 
 
