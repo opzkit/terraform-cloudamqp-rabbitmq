@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.7](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.6...v0.1.7) (2025-11-14)
+
+
+### Miscellaneous Chores
+
+* **ci:** enable auto-merge with GitHub App token ([#139](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/139)) ([eecb190](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/eecb190aeb215d3ea2707dec9391b592281aeec2))
+* **deps:** update terraform cloudamqp to v1.38.2 ([#141](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/141)) ([b6457b6](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/b6457b64c2a7f20473e073e48fa79d5a303046f4))
+
 ## [0.1.6](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.5...v0.1.6) (2025-11-07)
 
 
