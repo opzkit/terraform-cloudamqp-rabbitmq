@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.8](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.7...v0.1.8) (2025-11-21)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v5.0.1 ([#146](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/146)) ([4890f52](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/4890f52660a3963ad2c844dd9f1cdf8979db0c60))
+* **deps:** update actions/checkout action to v6 ([#148](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/148)) ([d57cd01](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/d57cd01189ec02b91909da01d2d882c42e0b4ecd))
+* **deps:** update actions/checkout digest to 93cb6ef ([#145](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/145)) ([178e658](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/178e6586135c7ab89aa88b179404dbdc8f8a6642))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.104.0 ([#147](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/147)) ([7e95bc3](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/7e95bc391d6452fd8bcdf3de60994698edcbe65e))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.173.1 ([#142](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/142)) ([c91ed7b](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/c91ed7b166c7a798a99da609299bee91aa9e23e7))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42 ([#143](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/143)) ([a0c15b6](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/a0c15b67ab0203969367b8b4bea9b25d00f29cfc))
+* **deps:** update terraform cloudamqp to v1.38.3 ([#149](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/149)) ([e332ecf](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/e332ecf4bf85cd70d1c1a1a620fb6175e982c1fe))
+
 ## [0.1.7](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.6...v0.1.7) (2025-11-14)
 
 
