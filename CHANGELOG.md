@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.9](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.8...v0.1.9) (2025-11-22)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token digest to 7e473ef ([#150](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/150)) ([b09b3a6](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/b09b3a6ec1ed30c95eebab8e2073a0cca9fff3d9))
+
 ## [0.1.8](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.7...v0.1.8) (2025-11-21)
 
 
