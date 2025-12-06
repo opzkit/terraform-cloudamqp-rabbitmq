@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.10](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.9...v0.1.10) (2025-12-06)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v6.0.1 ([#157](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/157)) ([a57a3a8](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/a57a3a83c34b2de77954ba2a0258c7622ea67195))
+* **deps:** update actions/checkout digest to 8e8c483 ([#156](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/156)) ([d1a073d](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/d1a073d9dac87b81b05e7ee25e31a5e95162d93f))
+* **deps:** update actions/create-github-app-token digest to 29824e6 ([#159](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/159)) ([c8a960c](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/c8a960c6ba98b4db62410fe5f82a532c688015a6))
+
 ## [0.1.9](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.8...v0.1.9) (2025-12-02)
 
 
