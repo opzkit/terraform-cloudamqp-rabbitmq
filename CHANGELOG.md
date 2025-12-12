@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.1.10](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.9...v0.1.10) (2025-12-12)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v6.0.1 ([#157](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/157)) ([a57a3a8](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/a57a3a83c34b2de77954ba2a0258c7622ea67195))
+* **deps:** update actions/checkout digest to 8e8c483 ([#156](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/156)) ([d1a073d](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/d1a073d9dac87b81b05e7ee25e31a5e95162d93f))
+* **deps:** update actions/create-github-app-token digest to 29824e6 ([#159](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/159)) ([c8a960c](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/c8a960c6ba98b4db62410fe5f82a532c688015a6))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.39.2 ([#160](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/160)) ([d1f5bc9](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/d1f5bc9384dfda0861545cfb006187eb1350497d))
+* **deps:** update terraform cloudamqp to v1.40.0 ([#161](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/161)) ([1358911](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/1358911fa64caaa93b71273a479b906c9e39d6f8))
+
 ## [0.1.9](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.8...v0.1.9) (2025-12-02)
 
 
