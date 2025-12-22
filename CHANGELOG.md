@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.11](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.10...v0.1.11) (2025-12-22)
+
+
+### Miscellaneous Chores
+
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.64.1 ([#162](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/162)) ([51e8a23](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/51e8a23a801cffde5fe5cec22d0c08c0d3a9137f))
+* **deps:** update terraform cloudamqp to v1.41.0 ([#164](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/164)) ([3fa3616](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/3fa3616d27a08fe9fade19e9fd7cce6d771d7e9f))
+
 ## [0.1.10](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.9...v0.1.10) (2025-12-12)
 
 
