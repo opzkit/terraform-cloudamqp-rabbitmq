@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.13](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.12...v0.1.13) (2026-02-17)
+
+
+### Bug Fixes
+
+* use floor version constraints for provider versions ([#182](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/182)) ([6974ddb](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/6974ddba4f3294b6b69e7c76f1af12976c770b2f))
+
+
+### Miscellaneous Chores
+
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.4.3 ([#179](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/179)) ([be2803d](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/be2803d914d3283dbe0fa87646191fd024aab9e2))
+* **deps:** update terraform cloudamqp to v1.42.1 ([#181](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/181)) ([95b6467](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/95b646742d4bf4fe81b7062e0acd3d48fdb7a062))
+
 ## [0.1.12](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.11...v0.1.12) (2026-02-06)
 
 
