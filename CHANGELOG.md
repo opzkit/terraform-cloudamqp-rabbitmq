@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.14](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.13...v0.1.14) (2026-03-02)
+
+
+### Miscellaneous Chores
+
+* **deps:** update hashicorp/setup-terraform action to v4 ([#185](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/185)) ([5dd68e1](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/5dd68e1aa532834f5898de48189a7a97326ba750))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.31.1 ([#183](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/183)) ([beecb30](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/beecb30955b9cd812b1ccbc0ad9b64ee93244abc))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.46.6 ([#186](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/186)) ([0d7f084](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/0d7f0844631b93d7ae1f81eeafe332e1927800a3))
+
 ## [0.1.13](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.12...v0.1.13) (2026-02-17)
 
 
