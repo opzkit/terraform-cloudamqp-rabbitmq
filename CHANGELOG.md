@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.1.14](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.13...v0.1.14) (2026-03-23)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token action to v3 ([#190](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/190)) ([cd961c6](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/cd961c63e6176209bb22fd07fbcd716aea86b09b))
+* **deps:** update actions/create-github-app-token digest to fee1f7d ([#188](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/188)) ([74e8e95](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/74e8e95ebe1965e6cb4a3de70048e82513ef57be))
+* **deps:** update hashicorp/setup-terraform action to v4 ([#185](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/185)) ([5dd68e1](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/5dd68e1aa532834f5898de48189a7a97326ba750))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.31.1 ([#183](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/183)) ([beecb30](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/beecb30955b9cd812b1ccbc0ad9b64ee93244abc))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.46.6 ([#186](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/186)) ([0d7f084](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/0d7f0844631b93d7ae1f81eeafe332e1927800a3))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.59.4 ([#187](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/187)) ([a737a8c](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/a737a8cd84b0b8a381dbc2398a520de6ec98446a))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.86.0 ([#191](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/191)) ([01f12b9](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/01f12b9c57bbe5447bc7fcf747348be5aa9343b8))
+* **deps:** update terraform-linters/setup-tflint action to v6.2.2 ([#189](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/189)) ([602f9c0](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/602f9c0701c26dd0c577b682d28f43aefd37c5ab))
+
 ## [0.1.13](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.12...v0.1.13) (2026-02-17)
 
 
