@@ -89,10 +89,6 @@ resource "cloudamqp_alarm" "disk_alarm" {
   recipients      = local.recipients
 }
 
-data "cloudamqp_credentials" "default" {
-  instance_id = cloudamqp_instance.default.id
-}
-
 resource "aws_secretsmanager_secret" "rabbit" {
   name = "mq/rabbit/${var.secret_name != null && var.secret_name != "" ? var.secret_name : var.name}"
 }
@@ -108,7 +104,7 @@ locals {
     AMQP_URL      = cloudamqp_instance.default.url
     AMQP_HOST     = cloudamqp_instance.default.host
     AMQP_VHOST    = cloudamqp_instance.default.vhost
-    AMQP_USER     = data.cloudamqp_credentials.default.username
-    AMQP_PASSWORD = data.cloudamqp_credentials.default.password
+    AMQP_USER     = cloudamqp_instance.default.credentials.username
+    AMQP_PASSWORD = cloudamqp_instance.default.credentials.password
   }
 }
