@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.15](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.14...v0.1.15) (2026-04-13)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token digest to 1b10c78 ([#197](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/197)) ([6f75251](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/6f75251b19034b993e95c7beb1b3d111d53df304))
+* **deps:** update actions/create-github-app-token digest to 7bd0371 ([#195](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/195)) ([a4e6063](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/a4e606381d348ce61135288d28baade6ca642156))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.111.0 ([#198](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/198)) ([715a11c](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/715a11c1966a09fd7279db24a77c2218120bec9b))
+
 ## [0.1.14](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.13...v0.1.14) (2026-04-08)
 
 
