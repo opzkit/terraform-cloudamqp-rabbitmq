@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.1.15](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.14...v0.1.15) (2026-05-04)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token digest to 1b10c78 ([#197](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/197)) ([6f75251](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/6f75251b19034b993e95c7beb1b3d111d53df304))
+* **deps:** update actions/create-github-app-token digest to 7bd0371 ([#195](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/195)) ([a4e6063](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/a4e606381d348ce61135288d28baade6ca642156))
+* **deps:** update googleapis/release-please-action action to v5 ([#201](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/201)) ([342f9cf](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/342f9cf942e98838350a102b8c0db9f324d53cb3))
+* **deps:** update googleapis/release-please-action digest to 5c625bf ([#199](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/199)) ([83f4cbf](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/83f4cbf68b4e3dea59f8c7dffe60f07f11a3dbaa))
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.25.0 ([#203](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/203)) ([df11fb9](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/df11fb92ebf6555666cf23842be516dd56ee626c))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.111.0 ([#198](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/198)) ([715a11c](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/715a11c1966a09fd7279db24a77c2218120bec9b))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.126.0 ([#200](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/200)) ([288a2a2](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/288a2a24696615a1729d363d2af0527a50518eb8))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.140.0 ([#202](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/202)) ([5b87d17](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/5b87d1715e5ccd6b4efd7d42ad1b524c2a16bbfe))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.141.2 ([#204](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/issues/204)) ([236263d](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/commit/236263d067d38bd61220b1f441dcb28a11f85da2))
+
 ## [0.1.14](https://github.com/opzkit/terraform-cloudamqp-rabbitmq/compare/v0.1.13...v0.1.14) (2026-04-08)
 
 
