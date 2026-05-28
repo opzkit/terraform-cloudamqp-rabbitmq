@@ -32,21 +32,21 @@ variable "rmq_version" {
 }
 
 variable "email_recipients" {
-  type        = list(string)
-  description = "List of email recipients for alerts"
-  default     = []
+  type        = map(string)
+  description = "Map of email recipients for alerts. Key is the recipient name shown in the cloudamqp UI, value is the email address."
+  default     = {}
 }
 
 variable "slack_webhooks" {
-  type        = list(string)
-  description = "List of Slack webhooks which will be called for alerts"
-  default     = []
+  type        = map(string)
+  description = "Map of Slack webhooks called for alerts. Key is the recipient name shown in the cloudamqp UI, value is the webhook URL."
+  default     = {}
 }
 
 variable "teams_webhooks" {
-  type        = list(string)
-  description = "List of Teams webhooks which will be called for alerts"
-  default     = []
+  type        = map(string)
+  description = "Map of Teams webhooks called for alerts. Key is the recipient name shown in the cloudamqp UI, value is the webhook URL."
+  default     = {}
 }
 
 variable "consumer_alarm_queue_regex" {

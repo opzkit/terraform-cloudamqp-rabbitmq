@@ -5,5 +5,5 @@ module "rabbitmq" {
   secret_name    = "cloudamqp"
   plan           = "lemur"
   nodes          = 1
-  teams_webhooks = []
+  teams_webhooks = {}
 }
