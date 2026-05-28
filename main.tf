@@ -8,23 +8,26 @@ resource "cloudamqp_instance" "default" {
 }
 
 resource "cloudamqp_notification" "email" {
-  for_each    = toset(var.email_recipients)
+  for_each    = var.email_recipients
   instance_id = cloudamqp_instance.default.id
   type        = "email"
+  name        = each.key
   value       = each.value
 }
 
 resource "cloudamqp_notification" "slack" {
-  for_each    = toset(var.slack_webhooks)
+  for_each    = var.slack_webhooks
   instance_id = cloudamqp_instance.default.id
   type        = "slack"
+  name        = each.key
   value       = each.value
 }
 
 resource "cloudamqp_notification" "teams" {
-  for_each    = toset(var.teams_webhooks)
+  for_each    = var.teams_webhooks
   instance_id = cloudamqp_instance.default.id
   type        = "teams"
+  name        = each.key
   value       = each.value
 }
 
